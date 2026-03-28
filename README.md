@@ -84,9 +84,3 @@ tests/                       System test (C#)
 ## Running tests
 
 Each testbench uses a VHDL configuration to bind a custom `InstructionMemory` architecture (test-specific ROM program) into the CPU. Run any `*_tb` entity or its `*_cfg` configuration in the simulator.
-
-CI runs automatically via GitHub Actions (`.github/workflows/vhdl-test.yml`).
-
-## Documentation
-
-Full documentation in `docs/`.
